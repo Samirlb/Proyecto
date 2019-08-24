@@ -1,0 +1,108 @@
+body {
+	background: #2c3e50;
+	font-family: 'Lexend Deca', sans-serif;
+	color: white;
+}
+
+.container {
+	margin: 200px 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 590px;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 8px;
+	font-size: 0;
+}
+
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 14px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	padding: 0 43.8px;
+}
+
+nav .inicio:hover {
+	background-color: #1abc9c;
+	transition: all .5s;
+}
+
+nav .blog:hover {
+	background-color: #e74c3c;
+	transition: all .5s;
+}
+
+nav .servicio:hover {
+	background-color: #3498db;
+	transition: all .5s;
+}
+
+nav .contactos:hover {
+	background-color: #9b59b6;
+	transition: all .5s;
+}
+
+nav li {
+	display: inline-block;
+}
+
+.hola {
+	margin-top: 0;
+	background-color: #e74c3c;
+	text-decoration:none;
+	padding: 0;
+	width: 206px;
+}
+
+.hola a:hover {
+	color: black;
+}
+
+.servicios {
+	margin-top: 0;
+	background-color: #3498db;
+	text-decoration:none;
+	padding: 0;
+	width: 138px;
+}
+
+.servicios a:hover {
+	color: black;
+}
+
+.contacto {
+	margin-top: 0;
+	background-color: #9b59b6;
+	text-decoration:none;
+	width: auto;
+	padding: 16px;
+}
+
+.servicios a:hover {
+	color: black;
+}
+
+nav li ul {
+	display:none;
+	position:absolute;
+}
+
+nav li:hover > ul {
+	display: block;
+	font-size: 10px;
+}

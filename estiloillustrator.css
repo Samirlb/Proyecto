@@ -1,0 +1,30 @@
+body{
+    background: url(https://crehana-blog.s3.amazonaws.com/media/filer_public/e5/36/e5362527-c1fe-414d-b715-010c3301c7e6/ai_thumb.jpg);
+    background-size: 1400px;
+    text-decoration:none;
+}
+.b{
+    text-decoration:none;
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    color: orange;
+    display: block;
+    width: auto;
+    position: absolute;
+    top: 300px;
+    left: 550px;
+}
+a { 
+    text-decoration:none;
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    color: orange;
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+
+}
+a:hover{
+    color: black;
+}

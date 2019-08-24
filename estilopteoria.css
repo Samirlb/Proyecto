@@ -1,0 +1,34 @@
+body {
+    background: url(desenfoque.jpg);
+    background-size: 1400px;
+}
+.titulo{
+    color: white;
+}
+.p{
+	color: aqua;
+	font-size: 36px;
+}
+.h{
+	color: white;
+	font-size:36px;
+}
+nav{
+	color: #00F;
+	font-family:  'Hepta Slab', serif;
+	font-size: 36px;
+}
+#show{
+	display:none;
+}
+li{
+	display:block;
+	
+}
+footer{
+	color:Green;
+	font-size:18px;
+}
+header{
+	font-size:36px;
+}

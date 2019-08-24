@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-size:contain;
+	background-image:url(desenfoque.JPG)
+	
+	
+}
+footer{
+	color:Green;
+	font-size:100px;
+}
+header {
+	font-size:500px;
+	color: aqua;
+}
